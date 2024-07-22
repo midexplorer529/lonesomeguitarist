@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lonesome Guitarist Official Website</h1>
+        <span>
+            <a href="index.html" title="Home">Home</a>
+            <a href="about.html" title="About Me">About Me</a>
+            <a href="videos.html" title="My Videos">My Videos</a>
+            <a href="join.html">Join!</a>
+            <a href="https://www.youtube.com/channel/UCoSa883nNM_S79J6tD-OjfQ" target="_blank" title="Subscribe to my channel">Subscribe!</a>
+        </span>
+        <hr>
+    </header>
+
+    <main>
+        <h2>Join Me!</h2>
+        <form action="index.php" method="POST">
+            <table>
+                <tr>
+                    <td><label for="firstname">First Name:</label></td>
+                    <td><input type="text" id="firstname" placeholder="Frank" required><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="lastname">Last Name:</label></td>
+                    <td><input type="text" id="lastname" placeholder="Isle" required><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="number">Mobile:</label></td>
+                    <td><input type="tel" id="number" placeholder="0599 999 99 99" pattern="[0-9]{4} [0-9]{3} [0-9]{2} [0-9]{2}"><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="username">Username:</label></td>
+                    <td><input type="text" id="username" placeholder="MIDExplorer" required><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" placeholder="_____@___.com" required><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="password">Create password:</label></td>
+                    <td><input type="password" id="password" minlength="6" required><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="verifypassword">Verify password:</label></td>
+                    <td><input type="password" id="verifypassword" minlength="6" required><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="bday">Birthdate:</label></td>
+                    <td><input type="date" id="bday" required><br></td>
+                </tr>
+
+                <tr>
+                    
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" value="male" name="gender">
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" value="female" name="gender">
+                        <br>
+                    </td>
+                </tr>
+            </table>
+                
+            <input type="checkbox" id="service" required>
+            <label for="service">I have read the <a href="service.html" target="_blank">terms of service</a>, I agree.</label><br>
+                    
+
+                
+            <input type="checkbox" id="privacy" required>
+            <label for="privacy">I have read the <a href="privacy.html" target="_blank">privacy policy</a>, I agree.</label><br>
+                
+            <input type="submit">
+            <input type="reset">
+            
+        </form>
+    </main>
+
+    <footer>
+        <hr>
+        <span>
+            author: Lonesome Guitarist (A.K.A. MIDExplorer)<br>
+            &copy; copyright reserved <br>
+            <a href="https://www.youtube.com/channel/UCoSa883nNM_S79J6tD-OjfQ" target="_blank">My YouTube Channel</a>
+            <a href="mailto:lonesome.guitarist.main@gmail.com" title="lonesome.guitarist.main@gmail.com">Mail Me</a>
+        </span>
+        <br><br>
+    </footer>
+    
+</body>
+</html>
